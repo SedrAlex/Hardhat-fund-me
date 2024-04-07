@@ -1,8 +1,12 @@
-require("@nomiclabs/hardhat-waffle")
+// require("@nomiclabs/hardhat-waffle")
 require("hardhat-gas-reporter")
 require("dotenv").config()
 require("solidity-coverage")
 require("hardhat-deploy")
+require("@nomiclabs/hardhat-etherscan")
+require("@nomicfoundation/hardhat-chai-matchers")
+require("hardhat-deploy-ethers")
+// require("ethereum-waffle")
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 /**
